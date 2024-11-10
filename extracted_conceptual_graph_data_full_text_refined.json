@@ -1,0 +1,143 @@
+{
+    "nodes": [
+        {
+            "name": "Project Risk Management",
+            "type": "Process",
+            "attributes": {
+                "description": "Integral part of project management focused on identifying, assessing, and responding to project risks.",
+                "importance": "Critical success factor for project success.",
+                "phases": [
+                    "risk identification",
+                    "risk analysis",
+                    "risk response planning",
+                    "monitoring and control"
+                ]
+            }
+        },
+        {
+            "name": "Project Manager",
+            "type": "Role",
+            "attributes": {
+                "responsibility": "Overall management of project risks and ensuring successful project delivery.",
+                "accountability": "Day-to-day management of project including risk activities.",
+                "tasks": [
+                    "Develop risk management plan",
+                    "Facilitate communication",
+                    "Monitor risk status"
+                ]
+            }
+        },
+        {
+            "name": "Stakeholder",
+            "type": "Entity",
+            "attributes": {
+                "type": "Person or organization with an interest in the project.",
+                "role": "Provide input on risk acceptance and support project risk management."
+            }
+        },
+        {
+            "name": "Risk Owner",
+            "type": "Role",
+            "attributes": {
+                "responsibility": "Manage identified risks and ensure effective responses.",
+                "accountability": "Assign actions related to specific risks."
+            }
+        },
+        {
+            "name": "Risk Management Plan",
+            "type": "Document",
+            "attributes": {
+                "purpose": "Outline how project risks will be managed.",
+                "content": [
+                    "Risk identification techniques",
+                    "Response strategies",
+                    "Monitoring methods"
+                ]
+            }
+        },
+        {
+            "name": "Risk Identification Techniques",
+            "type": "Method",
+            "attributes": {
+                "types": [
+                    "Brainstorming",
+                    "Historical review",
+                    "Checklists"
+                ],
+                "goal": "Identify and categorize potential risks."
+            }
+        },
+        {
+            "name": "Qualitative Risk Analysis",
+            "type": "Process",
+            "attributes": {
+                "purpose": "Assess and prioritize risks based on their characteristics.",
+                "outputs": [
+                    "Risk priority list",
+                    "High-priority risks"
+                ]
+            }
+        },
+        {
+            "name": "Quantitative Risk Analysis",
+            "type": "Process",
+            "attributes": {
+                "purpose": "Numerically assess overall project risk and estimate the impact on objectives.",
+                "methods": [
+                    "Monte Carlo simulation",
+                    "Decision tree analysis"
+                ]
+            }
+        },
+        {
+            "name": "Contingency Reserve",
+            "type": "Resource",
+            "attributes": {
+                "definition": "Budget and time set aside to address unforeseen risks.",
+                "purpose": "Provide a buffer against identified risks."
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Project Risk Management",
+            "relationship": "Includes",
+            "target": "Risk Management Plan"
+        },
+        {
+            "source": "Project Manager",
+            "relationship": "Oversees",
+            "target": "Project Risk Management"
+        },
+        {
+            "source": "Stakeholder",
+            "relationship": "Provides input on",
+            "target": "Risk Management Plan"
+        },
+        {
+            "source": "Risk Owner",
+            "relationship": "Responsible for",
+            "target": "Risk Management Plan"
+        },
+        {
+            "source": "Risk Management Plan",
+            "relationship": "Defines methods for",
+            "target": "Risk Identification Techniques"
+        },
+        {
+            "source": "Qualitative Risk Analysis",
+            "relationship": "Utilizes",
+            "target": "Risk Identification Techniques"
+        },
+        {
+            "source": "Quantitative Risk Analysis",
+            "relationship": "Follows",
+            "target": "Qualitative Risk Analysis"
+        },
+        {
+            "source": "Quantitative Risk Analysis",
+            "relationship": "Determines",
+            "target": "Contingency Reserve"
+        }
+    ]
+}
