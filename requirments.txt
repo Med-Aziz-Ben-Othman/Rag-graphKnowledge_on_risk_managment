@@ -1,0 +1,8 @@
+PyMuPDF
+pinecone-client
+langchain
+langchain-pinecone
+langchain-openai
+langchain-text-splitters
+openai
+symspellpy
