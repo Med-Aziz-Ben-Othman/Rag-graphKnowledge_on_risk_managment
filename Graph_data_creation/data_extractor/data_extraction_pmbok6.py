@@ -68,7 +68,7 @@ def main():
     # Extract conceptual graph data
     conceptual_graph_data = extract_conceptual_graph_data(df_PMBOK7)
     
-    # Optionally, save the structured output to a JSON file
+    # Optionally, save the strucctured output to a JSON file
     output_file = "PMBOK6_data_extracted_V2.json"
 
     with open(output_file, "w", encoding="utf-8") as file:

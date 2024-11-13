@@ -1,0 +1,237 @@
+{
+    "nodes": [
+        {
+            "name": "Urban Office Building",
+            "type": "Project",
+            "attributes": {
+                "capacity": "500 employees",
+                "features": [
+                    "open-plan offices",
+                    "conference rooms",
+                    "coworking spaces",
+                    "gym",
+                    "caf\u00e9"
+                ],
+                "location": "central urban area"
+            }
+        },
+        {
+            "name": "Sustainable Workspace",
+            "type": "Objective",
+            "attributes": {
+                "goal": "minimize carbon footprint",
+                "methods": [
+                    "environmentally friendly materials",
+                    "energy-efficient systems"
+                ]
+            }
+        },
+        {
+            "name": "Community Hub",
+            "type": "Objective",
+            "attributes": {
+                "goal": "enhance community engagement",
+                "methods": [
+                    "foster interactions between tenants and local residents"
+                ]
+            }
+        },
+        {
+            "name": "On-Time Delivery",
+            "type": "Objective",
+            "attributes": {
+                "goal": "complete project on time and within budget",
+                "methods": [
+                    "advanced project management techniques"
+                ]
+            }
+        },
+        {
+            "name": "Regulatory Risks",
+            "type": "Risk",
+            "attributes": {
+                "description": "knowledge of local zoning laws and building codes",
+                "management": [
+                    "engage with regulatory agencies"
+                ]
+            }
+        },
+        {
+            "name": "Financial Risks",
+            "type": "Risk",
+            "attributes": {
+                "description": "unforeseen expenses",
+                "management": [
+                    "establish contingency budget",
+                    "review financial projections"
+                ]
+            }
+        },
+        {
+            "name": "Construction Risks",
+            "type": "Risk",
+            "attributes": {
+                "description": "on-site accidents",
+                "management": [
+                    "develop safety plan",
+                    "conduct training sessions"
+                ]
+            }
+        },
+        {
+            "name": "Stakeholder Risks",
+            "type": "Risk",
+            "attributes": {
+                "description": "stakeholder concerns",
+                "management": [
+                    "facilitate regular meetings"
+                ]
+            }
+        },
+        {
+            "name": "Smart Building Technologies",
+            "type": "Technology",
+            "attributes": {
+                "description": "automated systems",
+                "benefits": [
+                    "improve operational efficiency"
+                ]
+            }
+        },
+        {
+            "name": "Mobile Project Management Tools",
+            "type": "Technology",
+            "attributes": {
+                "description": "real-time updates",
+                "benefits": [
+                    "enhanced communication"
+                ]
+            }
+        },
+        {
+            "name": "Virtual Reality (VR)",
+            "type": "Technology",
+            "attributes": {
+                "description": "immersive stakeholder engagement",
+                "benefits": [
+                    "feedback before construction"
+                ]
+            }
+        },
+        {
+            "name": "Green Roof and Vertical Gardens",
+            "type": "Sustainability Feature",
+            "attributes": {
+                "description": "building aesthetics and insulation",
+                "benefits": [
+                    "improves air quality"
+                ]
+            }
+        },
+        {
+            "name": "Rainwater Harvesting Systems",
+            "type": "Sustainability Feature",
+            "attributes": {
+                "description": "collect rainwater",
+                "uses": [
+                    "irrigation",
+                    "non-potable uses"
+                ]
+            }
+        },
+        {
+            "name": "Energy-Efficient HVAC Systems",
+            "type": "Sustainability Feature",
+            "attributes": {
+                "description": "reduce energy consumption",
+                "benefits": [
+                    "maintains indoor air quality"
+                ]
+            }
+        },
+        {
+            "name": "Community Impact",
+            "type": "Impact",
+            "attributes": {
+                "description": "positive local community effects",
+                "benefits": [
+                    "job opportunities",
+                    "community spaces",
+                    "support local businesses"
+                ]
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Urban Office Building",
+            "relationship": "aims to achieve",
+            "target": "Sustainable Workspace"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "aims to achieve",
+            "target": "Community Hub"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "aims to achieve",
+            "target": "On-Time Delivery"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "is subject to",
+            "target": "Regulatory Risks"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "is subject to",
+            "target": "Financial Risks"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "is subject to",
+            "target": "Construction Risks"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "is subject to",
+            "target": "Stakeholder Risks"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "utilizes",
+            "target": "Smart Building Technologies"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "utilizes",
+            "target": "Mobile Project Management Tools"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "utilizes",
+            "target": "Virtual Reality (VR)"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "features",
+            "target": "Green Roof and Vertical Gardens"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "features",
+            "target": "Rainwater Harvesting Systems"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "features",
+            "target": "Energy-Efficient HVAC Systems"
+        },
+        {
+            "source": "Urban Office Building",
+            "relationship": "aims to create",
+            "target": "Community Impact"
+        }
+    ]
+}
